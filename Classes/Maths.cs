@@ -12,10 +12,10 @@ namespace ConsoleApp6.Classes
         public int X { get; set; }
         public int Y { get; set; }
 
-        public static Maths operator +(Maths x, Maths y)
+        public static Maths operator +(Maths x, int seconds)
         {
             return new Maths() {
-                Result= x.X + y.Y,
+                Result= x.X +  seconds,
             };
         }
         public static Maths operator -(Maths x, Maths y)

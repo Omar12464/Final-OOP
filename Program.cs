@@ -2,7 +2,7 @@
 using System.Drawing;
 
 namespace ConsoleApp6
-{
+{ 
     internal class Program
     {
         static void Main(string[] args)
@@ -130,6 +130,28 @@ namespace ConsoleApp6
             //Console.WriteLine($"After Multiplication {maths.Result}");
             #endregion
             #region Third Project
+            //Duration D1 = new Duration(4500);
+            //Duration D2 = new Duration(3600);
+            //Duration D3;
+            ////Console.WriteLine(D1.ToString());
+            //////Duration D1 = new Duration(3600);
+            //////D1.ToString();
+            ////Duration D2 = new Duration(7800);
+            ////Console.WriteLine(D2.ToString());
+            ////Duration D3 = new Duration(666);
+            ////Console.WriteLine(D3.ToString());
+            //D3 = D1 + D2;
+            //D3 = D1 + 7800;
+            //D3 = ++D1;
+            //D3 = --D2;
+            //D1 = D1--;
+            //if (D1 > D2)
+            //{
+            //    Console.WriteLine("D1 IS MORETHAN D2");
+            //}
+            //if (D1 <= D2) ;
+            //if (D1) ;
+            //DateTime obj = (DateTime) D1;
 
             #endregion
         }
