@@ -154,6 +154,7 @@ namespace ConsoleApp6
             //DateTime obj = (DateTime) D1;
 
             #endregion
+            Console.WriteLine("Part 2");
         }
     }
 }
