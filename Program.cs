@@ -1,5 +1,6 @@
 ﻿using ConsoleApp6.Classes;
 using System.Drawing;
+using System.Numerics;
 
 namespace ConsoleApp6
 { 
@@ -155,6 +156,69 @@ namespace ConsoleApp6
 
             #endregion
             Console.WriteLine("Part 2");
+            Console.WriteLine("Hello, World!");
+            #region Demo
+            Complex c1 = new Complex()
+            {
+                Real = 3,
+                Image = 4
+            };
+            Complex c2 = new Complex()
+            {
+                Real = 1,
+                Image = 2
+            };
+            Complex c3 = c2;
+            #region Binary Expression
+            c3 = c1 + c2;
+            c3 = c1 - c2;
+            #endregion
+            #region Unary Operators
+            //c3 = c1++;
+            //c3 = ++c1;
+            #endregion
+            //Console.WriteLine(c1);
+            //Console.WriteLine(c1.GetHashCode());
+            //c2.GetHashCode();
+            //Console.WriteLine(c2.GetHashCode());
+            //Console.WriteLine(c3.GetHashCode());
+            //c1.GetHashCode();
+            //c3.GetHashCode();
+            //if (c1 > c2)
+            //    Console.WriteLine("c1 is greater");
+            //else if(c1<c2)
+            //    Console.WriteLine("c1 is greater");
+            //else
+            //    Console.WriteLine("Both Equal");
+            //int z = (int)c1;
+
+            //Console.WriteLine(z);
+
+            //string str =(string) c1;
+            //Console.WriteLine(str);
+
+            #region Casting Operator
+            //Employee e1 = new Employee()
+            //{
+            //    Id = 10,
+            //    FullName = "Omar Ibrahim",
+            //    Email = "maha@gmail.com",
+            //    Password = "password"
+
+            //};
+            //EmployeeViewModel empview = (EmployeeViewModel)e1; 
+            #endregion
+
+            //Shape shape= new Shape();
+            //shape.CalArea();
+
+            Rectangle rectangle = new Rectangle() { Dim01 = 2, Dim02 = 3 };
+            Console.WriteLine(rectangle.CalArea());
+            Console.WriteLine(rectangle.Perimeter());
+
+
+            #endregion
         }
     }
-}
+ }
+
