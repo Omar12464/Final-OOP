@@ -107,7 +107,7 @@ namespace ConsoleApp6
             //Point3D clone =(Point3D) p1.Clone();
             //Console.WriteLine($"\nOriginal: {p1}");
             //Console.WriteLine($"Clone: {clone}");
-            #endregion 
+            #endregion
             #endregion
             #region MyRegion
 
@@ -115,7 +115,23 @@ namespace ConsoleApp6
 
 
             #endregion
+            #region Second Project
+            //Maths maths = new Maths()
+            //{ 
+            //    X=2,Y=3
+            //};
+            //maths.Result = maths.X + maths.Y;
+            //Console.WriteLine($"After addition {maths.Result}");
+            //maths.Result = maths.X - maths.Y;
+            //Console.WriteLine($"After Subtraction {maths.Result}");
+            //maths.Result = maths.X / maths.Y;
+            //Console.WriteLine($"After Division {maths.Result}");
+            //maths.Result = maths.X * maths.Y;
+            //Console.WriteLine($"After Multiplication {maths.Result}");
+            #endregion
+            #region Third Project
 
+            #endregion
         }
     }
 }
