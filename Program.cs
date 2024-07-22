@@ -27,11 +27,11 @@ namespace ConsoleApp6
             //{
             //    Console.WriteLine("Invalid Input");
             //}
-            //if (!int.TryParse(Console.ReadLine(),out z))
+            //if (!int.TryParse(Console.ReadLine(), out z))
             //{
             //    Console.WriteLine("Invalid Input");
             //}
-            //p1=new Point3D(x, y, z);
+            //p1 = new Point3D(x, y, z);
             //Console.WriteLine("Enter 3 Points to P1:");
             //if (!int.TryParse(Console.ReadLine(), out x))
             //{
@@ -47,33 +47,37 @@ namespace ConsoleApp6
             //}
             //p2 = new Point3D(x, y, z);
 
-            /*
-             * With Parse
-             */
+            ///*
+            // * With Parse
+            // */
             //Console.WriteLine("Enter the point for p1:");
-            //string x=Console.ReadLine();
-            //string y= Console.ReadLine();
+            //string x = Console.ReadLine();
+            //string y = Console.ReadLine();
             //string z = Console.ReadLine();
             //p1 = new Point3D(int.Parse(x), int.Parse(y), int.Parse(z));
             //Console.WriteLine("Enter the point for p2:");
-            // x=Console.ReadLine();
-            // y= Console.ReadLine();
-            // z = Console.ReadLine();
+            //x = Console.ReadLine();
+            //y = Console.ReadLine();
+            //z = Console.ReadLine();
             //p2 = new Point3D(int.Parse(x), int.Parse(y), int.Parse(z));
 
             //with Convert
-            //Console.WriteLine("Enter the point for p1:");
-            //int x = Convert.ToInt32(Console.ReadLine());
-            //int y = Convert.ToInt32(Console.ReadLine());
-            //int z = Convert.ToInt32(Console.ReadLine());
-            //p1 = new Point3D(x, y, z);
-            //Console.WriteLine("Enter the point for p2:");
-            // x = Convert.ToInt32(Console.ReadLine());
-            // y = Convert.ToInt32(Console.ReadLine());
-            // z = Convert.ToInt32(Console.ReadLine());
-            //p2 = new Point3D(x, y, z);
-            //Console.WriteLine(p1);
-            //Console.WriteLine(p2);
+            Point3D p1;
+            Point3D p2;
+            Console.WriteLine("Enter the point for p1:");
+            int x = Convert.ToInt32(Console.ReadLine());
+            int y = Convert.ToInt32(Console.ReadLine());
+            int z = Convert.ToInt32(Console.ReadLine());
+            p1 = new Point3D(x, y, z);
+            Console.WriteLine("Enter the point for p2:");
+            x = Convert.ToInt32(Console.ReadLine());
+            y = Convert.ToInt32(Console.ReadLine());
+            z = Convert.ToInt32(Console.ReadLine());
+            p2 = new Point3D(x, y, z);
+            Console.WriteLine(p1);
+            Console.WriteLine(p2);
+
+
 
 
 
